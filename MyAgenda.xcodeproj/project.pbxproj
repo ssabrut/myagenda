@@ -12,6 +12,7 @@
 		0409C40127D9EC5300B01328 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0409C40027D9EC5300B01328 /* Preview Assets.xcassets */; };
 		044FB42F27DA2BB1000CD3CF /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FB42E27DA2BB1000CD3CF /* ListRowView.swift */; };
 		044FB43127DA2DE5000CD3CF /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FB43027DA2DE5000CD3CF /* AddView.swift */; };
+		0482A1BE27E01475000D0AA2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482A1BD27E01475000D0AA2 /* Item.swift */; };
 		04DE874F27DA1D4500E16565 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE874E27DA1D4500E16565 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		0409C40027D9EC5300B01328 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		044FB42E27DA2BB1000CD3CF /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		044FB43027DA2DE5000CD3CF /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		0482A1BD27E01475000D0AA2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		04DE874E27DA1D4500E16565 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 		04DE874C27DA1CCF00E16565 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				0482A1BD27E01475000D0AA2 /* Item.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0482A1BE27E01475000D0AA2 /* Item.swift in Sources */,
 				044FB43127DA2DE5000CD3CF /* AddView.swift in Sources */,
 				04DE874F27DA1D4500E16565 /* ListView.swift in Sources */,
 				0409C3FA27D9EC5200B01328 /* MyAgendaApp.swift in Sources */,
